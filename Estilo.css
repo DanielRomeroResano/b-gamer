@@ -3,9 +3,9 @@ header{
 }
 
 h1{
-  color: rgb(255, 255, 255);
+  color:white;
 }
-p{color: rgb(255, 255, 255);}
+p{color:white;}
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -31,6 +31,6 @@ p{color: rgb(255, 255, 255);}
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #ff0000;
+    background-color:red;
     color: white;
 }
