@@ -173,16 +173,7 @@ footer{
   height: 70px;
   font-size:13px;
 }
-.gallery_categ{
-  margin:50px 0 200px 50px;
-}
 
-.gallery_categ img{
-  width: 230px;
-  height: 300px;
-  border:10px rgb(0, 0, 0);
-  padding: 100 100 100 100;
-}
 
 .gallery_categ h1{
   text-transform:capitalize;
@@ -195,4 +186,76 @@ footer{
   padding-left:20px;
 }
 
+.Plantillacol {
+    float:left;
+    width: 25%;
+    margin: 50px 0px 20px 80px;
+      /*border-style: solid;
+    border-color:black;
+    border-width: medium;
+    background-color: white;*/
+}
+.Plantillacol img{
+  width: 230px;
+  height: 300px;
+  border-style: solid;
+  border-color:rgb(255, 99, 0);
+  border-width: medium;
+}
+/* Clear floats after the columns */
+.Plantillarow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.titulo{
+  margin: 50px 0 0px 100px;
+  text-transform:capitalize;
+  font-family:sans-serif;
+  height: 22%;
+  color:rgb(255, 107, 0);
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.card {
+  background-color: white;
+  /*
+  border-color:black;
+  border-style: solid;
+  border-bottom:none;*/
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family:Arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card h2 {
+  padding-top:15px;
+}
+.card button:hover {
+  opacity: 0.7;
+}
+/*.isDisabled {
+  color: currentColor;
+  cursor: not-allowed;
+  text-decoration: none;
+}*/
 
