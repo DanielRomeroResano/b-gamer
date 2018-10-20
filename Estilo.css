@@ -111,7 +111,7 @@ header  h1{
     background-color: #676767;
 }
 body{
-  margin: 0
+margin:0;
 }
 
 .content{
@@ -140,16 +140,17 @@ body{
   opacity: 0;
   line-height: 0;
 }
-.gallery{
+
+.gallery_ini{
   margin:185px 0 200px 30px;
 }
 
-.gallery img{
+.gallery_ini img{
   width: 255px;
   margin:0px -5px 35px 0;
   padding:0;
 }
-.gallery h3 {
+.gallery_ini h3 {
   font-family:fantasy;
   text-transform:inherit;
   line-height: 1;
@@ -157,7 +158,7 @@ body{
   color:rgb(157, 23, 240);
 }
 
-.gallery img:hover {
+.gallery_ini img:hover {
   transform: scale(1.5);
 }
 
@@ -172,4 +173,26 @@ footer{
   height: 70px;
   font-size:13px;
 }
+.gallery_categ{
+  margin:50px 0 200px 50px;
+}
+
+.gallery_categ img{
+  width: 230px;
+  height: 300px;
+  border:10px rgb(0, 0, 0);
+  padding: 100 100 100 100;
+}
+
+.gallery_categ h1{
+  text-transform:capitalize;
+  font-family:sans-serif;
+  line-height: 2;
+  height: 22%;
+  color:rgb(255, 107, 0);
+  font-size: 30px;
+  vertical-align: middle;
+  padding-left:20px;
+}
+
 
