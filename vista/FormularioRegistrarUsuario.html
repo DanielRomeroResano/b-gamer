@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+		<title> B-Gamer</title>
+    <link rel="stylesheet" type="text/css" href="Estilo.css">
+  </head>
+  <body>
+    <header>
+
+      <h1>B-Gamer</h1>
+      <p>Wellcome to hideo kojima paradise</p>
+      <div class="topnav">
+        <a class="active" href="B-Gamer.html">Inicio</a>
+        <a href="Acción.html">Categorías</a>
+        <a href="#Top Ventas">Top Ventas</a>
+        <a href="#Carrito">Carrito</a>
+        <a href="Formulario Inicio Sesión.html">Inicio De Sesión</a>
+      </div>
+    </header>
+      <hr/>
+    <section>
+    <div class="formulariosesion">
+      <h2>Registro De Usuario</h2>
+      <hr />
+      <form action="/action_page.php">
+        Nombre<br>
+        <input type="text" name="Nombre", pattern="[A-Za-z\s]{1,}">
+        <br>
+        Correo Electrónico<br>
+        <input type="email" name="Correo Electrónico">
+        <br>
+        Contraseña<br>
+        <input type="password" name="Contraseña" pattern="(?=.*[0-9])(?=.*[A-Za-z]).{2,}">
+        <br>
+        Dirección<br>
+        <input type="text" name="Dirección" pattern="([A-Za-z]).{,30}">
+        <br>
+        Población<br>
+        <input type="text" name="Población" pattern="([A-Za-z]).{,30}">
+        <br>
+        Código Postal<br>
+        <input type="text" name="Código Postal" pattern="([0-9]).{4,5}">
+        <br>
+        <p>espacio</p>
+        <input type="submit" value="Confirmar">
+      </form>
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+      <hr />
+    </div>
+    </section>
+  </body>
+</html>
